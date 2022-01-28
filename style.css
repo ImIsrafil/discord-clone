@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.856);
+}
+
+main {
+  background-image: url(./images/main-bg.svg);
+  background-color: rgb(59, 59, 216);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+
+header {
+  /* height: 4rem; */
+  max-width: 1260px;
+  padding: 2rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.logo h1 {
+  font-size: 1.3rem;
+  color: rgb(130, 233, 236);
+  font-family: "Poppins", sans-serif;
+}
+
+.logo img {
+  height: 1.3rem;
+  color: rgb(235, 235, 235);
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.link a {
+  text-decoration: none;
+  color: rgb(108, 223, 231);
+  font-family: "Poppins", sans-serif;
+  transition: all 1s ease;
+}
+.link a:hover {
+  text-decoration: underline;
+}
+
+.login {
+  padding: 0.7rem 0.9rem;
+  border: none;
+  outline: none;
+  border-radius: 1.2rem;
+}
+.login:hover {
+  box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.301);
+}
+
+.intro {
+  max-width: 940px;
+  margin: auto;
+  padding: 7rem 2rem;
+}
+.intro-text {
+  text-align: center;
+}
+.intro-text h1 {
+  font-size: 4.5rem;
+  font-family: "Alegreya Sans", sans-serif;
+  color: rgb(224, 224, 224);
+  padding-bottom: 2rem;
+}
+.intro-text p {
+  padding-bottom: 2rem;
+  color: rgba(248, 248, 248, 0.863);
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  text-shadow: 3px -3px 2px rgba(0, 0, 0, 0.644);
+}
+.action {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.btn-browser {
+  background-color: rgb(14, 13, 13);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  color: rgb(210, 223, 222);
+}
+
+.btn-download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  background-color: rgb(238, 238, 238);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.btn-download img {
+  height: 1rem;
+}
+
+.create {
+  max-width: 1260px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+  padding: 10rem 3rem 0rem 3rem;
+}
+
+.creative-img {
+  flex: 3 1 385px;
+}
+.creative-img img {
+  width: 100%;
+}
+.creative-text {
+  flex: 1 1 385px;
+}
+.creative-text h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.hanging {
+  max-width: 1260px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  padding: 10rem 3rem 0rem 3rem;
+}
+.hanging-text {
+  flex: 1 1 385px;
+}
+
+.hanging-text h1 {
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+}
+.hanging-img {
+  flex: 3 1 385px;
+}
+
+.hanging-img img {
+  width: 100%;
+}
+
+.fandom {
+  max-width: 1260px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  padding: 10rem 3rem 0rem 3rem;
+}
+
+.fandom-img {
+  flex: 3 1 385px;
+}
+
+.fandom-img img {
+  width: 100%;
+}
+
+.fandom-text {
+  flex: 1 1 385px;
+}
+
+.fandom-text h1 {
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.tech {
+  max-width: 1260px;
+  margin: auto;
+  text-align: center;
+  padding: 10rem 3rem 5rem 3rem;
+}
+
+.tech-text h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Alegreya Sans", sans-serif;
+  padding-bottom: 2rem;
+}
+.tech-text p {
+  text-align: center;
+  color: rgb(94, 94, 94);
+  font-family: "Poppins", sans-serif;
+}
+
+.tech img {
+  width: 100%;
+}
+
+.journey {
+  max-width: 1260px;
+  margin: auto;
+  text-align: center;
+  padding: 0rem 0rem 7rem 0rem;
+}
+
+.journey-text {
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 3rem;
+  background-image: url(./images/ready-to-strat.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.journey-action {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-download.bottom {
+  background-color: rgb(150, 39, 253);
+  color: #f3f3f3;
+}
+
+footer {
+  background-color: rgb(30, 26, 39);
+  padding: 5rem;
+}
+
+.footer {
+  max-width: 1260px;
+  margin: auto;
+  display: flex;
+  gap: 10rem;
+  border-bottom: 1px solid rgb(40, 40, 248);
+}
+.imagine-place {
+  font-size: 1rem;
+  color: #f3f3f3;
+}
+.imagine-place h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color: rgb(163, 65, 255);
+  padding-bottom: 1rem;
+}
+.imagine-place img {
+  height: 0.8rem;
+}
+.imagine-links {
+  padding: 1rem 0;
+}
+.imagine-links a {
+  font-size: 1.5rem;
+  color: #f3f3f3;
+  padding-right: 0.5rem;
+}
+
+.quick-links {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.quick-links ul {
+  list-style: none;
+  padding: 1rem;
+}
+.quick-links ul li a {
+  text-decoration: none;
+  color: #d6d6d6;
+}
+.quick-links ul li {
+  padding-bottom: 1rem;
+}
+.quick-links ul:first-child {
+  color: rgb(10, 10, 230);
+}
+
+.footer-last {
+  max-width: 1260px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 3rem;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo i {
+  font-size: 2rem;
+  color: #d6d6d6;
+  margin-right: 0.5rem;
+}
+
+.open-discord-btn {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 2rem;
+  outline: none;
+  background-color: rgb(45, 45, 243);
+  color: #d6d6d6;
+  cursor: pointer;
+}
+
+.create.animation,
+.hanging.animation,
+.fandom.animation {
+  animation: fade-anim 0.5s ease forwards;
+}
+
+@keyframes fade-anim {
+  from {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .quick-links {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(300px, 350px) minmax(300, 350px);
+  }
+}
+
+@media screen and (max-width: 764px) {
+  .footer {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .links {
+    display: none;
+  }
+  .action {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .hanging-text {
+    order: 2;
+  }
+  .hanging-img {
+    order: 1;
+  }
+}
